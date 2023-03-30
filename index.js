@@ -13,7 +13,7 @@ const param = argv[3];
 
 if (operator === 'generate') {
   generator(param);
-} else if (operator === 'mobile') {
+} else if (operator === 'diff') {
   getDifference(param);
 } else {
   console.error('unknown operator', operator);
