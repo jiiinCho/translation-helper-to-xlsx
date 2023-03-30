@@ -1,5 +1,5 @@
 const generator = require('./generator');
-// const getDifference = require('./getDifference');
+const getDifference = require('./getDifference');
 
 const argv = process.argv;
 
@@ -13,6 +13,8 @@ const param = argv[3];
 
 if (operator === 'generate') {
   generator(param);
+} else if (operator === 'mobile') {
+  getDifference(param);
 } else {
   console.error('unknown operator', operator);
 }
