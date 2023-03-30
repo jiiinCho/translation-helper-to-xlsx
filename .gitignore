@@ -1,0 +1,18 @@
+# node_modules
+/node_modules
+
+# IDE setup
+/.vscode
+
+# JSON files
+/source/backoffice/*
+/source/mobile/*
+
+/output/backoffice/*
+/output/mobile/*
+
+/json/backoffice/*
+/json/mobile/*
+
+# settings
+**/*.DS_Store

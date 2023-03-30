@@ -1,0 +1,19 @@
+{
+  "name": "translate-helper-formatjs-xlsx",
+  "version": "1.0.0",
+  "description": "Translation helper to convert json files to xlsx",
+  "main": "index.js",
+  "scripts": {
+    "generate:backoffice": "node index.js generate backoffice",
+    "generate:mobile": "node index.js generate mobile",
+    "diff:backoffice": "node index.js diff backoffice",
+    "diff:mobile": "node index.js diff mobile"
+  },
+  "author": "jiiin✨",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "excel4node": "^1.8.0",
+    "xlsx": "^0.18.5"
+  }
+}
